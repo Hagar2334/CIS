@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+	font-family: "Amatic SC", sans-serif;
+	margin:0;
+	padding :0;
+	box-sizing:border-box;
+	scroll-behavior:smooth;
+	font-size:24px;
+	font-weight:700;
+	height:auto;
+	line-height:36px;
+	width:auto;
+	color:rgb(255,255,255);
+	
+     
+}
+
+body{
+	
+	background-image:url("../img/sushi123.png");
+	height:700px;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+	
+}
+
+.a{
+	color:white;
+	opacity:0.6;
+}
+
+.icons{
+	margin-left:10px;
+	word-spacing:28px;
+	position:absolute;
+	top:10%;
+	left:1%;
+	color:white;
+	text-decoration:none;
+	
+	
+}
+
+
+.header{
+	text-align:center;
+	width: 100%;
+	position: fixed;
+	z-index: 999;
+	display: flex;
+     justify-content: space-between;
+	align-items: center;
+	padding:60px;
+	
+}
+.logo{
+	text-decoration:none;
+	color:white;
+	text-transform:uppercase;
+	font-weight:900;
+	font-size:28.8px;
+	float:down;
+	
+}
+
+
+.navigation a{
+	text-decoration:none;
+	color:white;
+	 font-weight:700;
+	 font-size:17.6px;
+	 padding-left:100px;
+	 float:right;
+}
+.navigation a:hover{
+	color:#A9A9A9;
+}
+section{
+	padding:100px 200px;
+	
+	
+}
+	
+.main{
+ width:100%;
+min-height:100vh; 
+display:flex;
+align-items:center;
+
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+}
+.main-btn{
+	text-decoration:none;
+	
+	color:white;
+	background-color:#808080;
+	font-size:1.1em;
+	font-weight:600;
+	display:inline-block;
+	padding:15px 35px;
+	letter-spacing:1px;
+	border-radius:15px;
+	margin-bottom:40px;
+    transition:0.7s ease;
+	
+
+}
+.main-btn:hover{
+	background-color:#5A5A5A;
+	transform:scale(1.1);
+	color:white;
+	
+}
+.menu{
+	padding:25px 0 25px 0;
+	background-color:white;
+}
+.section{
+	padding:25px 0 25px 0;
+	text-align:center;
+	font-size:2rem;
+	font-family:verdana;
+	background-color:white;
+}
+.menuo{
+	margin-bottom:64px;
+	text-align:center;
+	font-size: 64px;
+	font-size: 36px!im
+}
+.susr{
+	width: 33.33333%;
+	padding: 12px 24px;
+}
+.ab, .ab-hover-red:hover {
+    color: #fff;
+    background-color: #000000;
+}
+.content{
+	max-width: 980px;
+	margin-left: auto;
+    margin-right: auto;
+	max-height:1000px;
+	
+}
+.abo2{
+	margin-bottom: 64px;
+	text-align: center;
+  font-size: 64px;
+}
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Amatic SC", sans-serif;
+	font-weight: 400px;
+    margin: 10px 0;
+}
+.ko{
+	
+	border-radius: 50;
+	float: right;
+	width: 150px;
+	vertical-align: middle;
+	border-style: none;
+     overflow: clip;
+}
+b, strong {
+    font-weight: bolder;
+	color:black;
+}
+.col{
+	width: 49.99999%;
+	float: left;
+	
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+div {
+    display: block;
+}
+
+.co{
+	color: #fff;
+    background-color: #607d8b;
+	padding-top: 64px;
+    padding-bottom: 64px;
+	font-size: 24px;
+	filter: grayscale(50%);
+	padding: 0.01em 16px;
+}
+.content{
+	max-width: 980px;
+	margin-left: auto;
+    margin-right: auto;
+	
+	
+}
+.con{
+	margin-bottom: 64px;
+	text-align: center;
+	font-size: 64px;
+	}
+.h1 {
+    display: block;
+    
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+
+}
+.tag {
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+.large{
+	font-size: 36px;
+	font-weight: bolder;
+}
+.form {
+    display: block;
+    margin-top: 0em;
+}
+.oo{
+	padding-top: 16px;
+    padding-bottom: 16px;
+	border: 1px solid #ccc;
+	padding: 8px;
+    display: block;
+    width: 100%;
+	overflow: visible;
+    margin: 0;
+}
+
+	
+input {
+   
+     text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+	text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+
+	
+}
+.menuo{
+	color: #FFFFFF;
+    background-color: #000000;
+	padding-top: 64px;
+    padding-bottom: 64px;
+	font-size: 36px;
+	padding: 0.01em 16px;
+}
+div {
+    display: block;
+}
+.mo{
+	max-width: 980px;
+	margin-left: auto;
+    margin-right: auto;
+}
+	
+.ma{
+	
+	margin-bottom: 64px;
+	text-align: center;
+	font-size: 64px;
+	font-weight: 400;
+    margin: 10px 0;
+}
+.m2{
+	
+	border-color: #616161;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+a {
+    background-color: transparent;
+}
+
+.oi{
+	width: 33.33333%;
+	color: #fff;
+    background-color: #f44336;
+	padding: 12px 24px;
+	float: left;
+}
+.sus{
+	display: block;
+	color: #000;
+    background-color: #fff;
+	padding-top: 32px;
+    padding-bottom: 32px;
+	padding: 0.01em 16px;
+
+}
+.pi{
+	display: block;
+	color: #000;
+    background-color: #fff;
+	padding-top: 32px;
+    padding-bottom: 32px;
+	padding: 0.01em 16px;
+	
+}
+.sol{
+	display: block;
+	color: #000;
+    background-color: #fff;
+	padding-top: 32px;
+    padding-bottom: 32px;
+	padding: 0.01em 16px;
+}
+.la{
+	color: #fff;
+    background-color: #616161;
+	float: right;
+	border-radius: 4px;
+	display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+	
+	
+}
+.jo{
+	color: #757575;
+	
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.ti{
+	
+	color: #fff;
+    background-color: #f44336;
+	border-radius: 4px;
+	display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+	
+}
+
+b, strong {
+    font-weight: bolder;
+	color:black;
+}
+.tag{
+	color: #000;
+    background-color: #9e9e9e;
+	border-radius: 4px;
+
+	
+	
+}
+img{
+	float:right;
+	
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+   opacity: 1;
+  
+ }
+    h2{
+		
+	  color:2584DB;
+		font-size:35px;
+		font-family:Impact;
+		Broder:5px solid black;
+		}
+		P{
+			
+		color :24DCDC;
+		font-size:25px;
+		font-family:Verdana;
+		Broder:5px solid black;
+		}
+		li{
+			
+		color :29D7BA;
+		font-size:20px;
+		font-family:Verdana ;
+		Broder:5px solid black;
+		}
+
+
+
